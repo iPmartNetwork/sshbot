@@ -8562,7 +8562,7 @@ def call_AST(bot, query):
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     t_persian = "یکی از پنل های زیر انتخاب کنین :\n\n"
-    t_english = '<a href="https://github.com/HamedAp/Ssh-User-management">Shahan</a>\n<a href="https://github.com/xpanel-cp/XPanel-SSH-User-Management">XPanel</a>\n<a href="https://github.com/mahmoud-ap/rocket-ssh">Rocket</a>\n<a href="https://github.com/ipmartnetwork/sshbot ">iPmart</a>\n<a href="https://github.com/januda-ui/DRAGON-VPS-MANAGER">Dragon</a>'
+    t_english = '<a href="https://github.com/HamedAp/Ssh-User-management">Shahan</a>\n<a href="https://github.com/xpanel-cp/XPanel-SSH-User-Management">XPanel</a>\n<a href="https://github.com/mahmoud-ap/rocket-ssh">Rocket</a>\n<a href="https://github.com/ipmartnetwork/sshbot">iPmart</a>\n<a href="https://github.com/januda-ui/DRAGON-VPS-MANAGER">Dragon</a>'
     query.edit_message_text(text=(t_persian + t_english), reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML, disable_web_page_preview=True)
 
 
