@@ -6073,7 +6073,7 @@ def call_plisio(bot, query):
         status = "🔴 OFF"
     else:
         status = "🟢 ON"
-    text = f"💳plisio API: <code>{settings['plisio_API']}</code>\n\nStatus: {status}\n\nدرگاه پرداخت plisio.net\nبرای فعال کردن این قابلیت باید به داخل سایت برید و یه API بگیرین آموزش گرفتنشم : \n\nt.me/deltacommentsgp"
+    text = f"💳plisio API: <code>{settings['plisio_API']}</code>\n\nStatus: {status}\n\nدرگاه پرداخت plisio.net\nبرای فعال کردن این قابلیت باید به داخل سایت برید و یه API بگیرین آموزش گرفتنشم : \n\nt.me/ipmart_network"
     query.edit_message_text(text=text, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML, disable_web_page_preview=True)
 
 
