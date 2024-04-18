@@ -39,7 +39,7 @@ mv /root/bot/data.json /root/
 
 rm -r /root/bot
 
-git clone "https://github.com/ipmartnetwork/sshbot.git" /root/bot/
+git clone "https://github.com/Am-Delta/xssh.git" /root/bot/
 
 mv /root/botCh/Pannels.txt /root/bot
 mv /root/botCh/backup /root/bot
