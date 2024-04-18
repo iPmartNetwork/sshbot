@@ -12216,7 +12216,7 @@ def call_HOW(bot, query):
         query.answer("Access denied", show_alert=True)
         return
     keyboard = []
-    text = '<b>How to use?</b>\n\nبرای اینکه یه کاربر سریعتر مدیریت کنین کافیه کپی کانفیگی که داخل پنل زده بودین و به کاربر فرستادینو مستقیم به ربات بفرستین:\n\nSSH Host: domain\nUsername : username\n\n\nبرای درست کردن لیست قیمت کافیه دکمه قیمت ها رو بزنین\n\nکانال ربات :\n@delta_bcc\nگروه رفع باگ و سوالا:\n@deltacommentsgp'
+    text = '<b>How to use?</b>\n\nبرای اینکه یه کاربر سریعتر مدیریت کنین کافیه کپی کانفیگی که داخل پنل زده بودین و به کاربر فرستادینو مستقیم به ربات بفرستین:\n\nSSH Host: domain\nUsername : username\n\n\nبرای درست کردن لیست قیمت کافیه دکمه قیمت ها رو بزنین\n\nکانال ربات :\n@ipmart_network\nگروه رفع باگ و سوالا:\n@ipmartpanel'
     keyboard.append([InlineKeyboardButton("<<", callback_data='settings')])
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(text=text, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
