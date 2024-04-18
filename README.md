@@ -44,6 +44,7 @@ Group: https://t.me/
 
 ## Supported Panels
 - Shahan v7.6
+- iPmart 1.2
 - XPanel v3.8.7
 - Rocket v1.2.0
 - Dragon Lastest
