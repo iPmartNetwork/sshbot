@@ -8556,13 +8556,13 @@ def call_AST(bot, query):
         query.answer("Access denied", show_alert=True)
         return
     keyboard = [
-        [InlineKeyboardButton("Shahan", callback_data='CHSA_shahan'), InlineKeyboardButton("XPanel", callback_data='CHSA_xpanel')],
-        [InlineKeyboardButton("iPmart", callback_data='CHSA_iPmart'), InlineKeyboardButton("Dragon", callback_data='CHSA_dragon')],
+        [InlineKeyboardButton("Shahan", callback_data='CHSA_shahan'), InlineKeyboardButton("iPmart", callback_data='CHSA_iPmart'), InlineKeyboardButton("XPanel", callback_data='CHSA_xpanel')],
+        [InlineKeyboardButton("Rocket", callback_data='CHSA_rocket'), InlineKeyboardButton("Dragon", callback_data='CHSA_dragon')],
         [InlineKeyboardButton("<<", callback_data='SMT')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     t_persian = "یکی از پنل های زیر انتخاب کنین :\n\n"
-    t_english = '<a href="https://github.com/HamedAp/Ssh-User-management">Shahan</a>\n<a href="https://github.com/xpanel-cp/XPanel-SSH-User-Management">XPanel</a>\n<a href="https://github.com/ipmartnetwork/ipmart-ssh-panel">iPmart</a>\n<a href="https://github.com/januda-ui/DRAGON-VPS-MANAGER">Dragon</a>'
+    t_english = '<a href="https://github.com/HamedAp/Ssh-User-management">Shahan</a>\n<a href="https://github.com/xpanel-cp/XPanel-SSH-User-Management">XPanel</a>\n<a href="https://github.com/mahmoud-ap/rocket-ssh">Rocket</a>\n<a href="https://github.com/ipmartnetwork/sshbot ">iPmart</a>\n<a href="https://github.com/januda-ui/DRAGON-VPS-MANAGER">Dragon</a>'
     query.edit_message_text(text=(t_persian + t_english), reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML, disable_web_page_preview=True)
 
 
